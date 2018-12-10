@@ -1,0 +1,25 @@
+nav{
+  margin: 40px 0;
+  margin-left: 40%;
+}
+
+
+
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  display: inline;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+nav li a:link, nav li a:visited {
+text-decoration: none;
+background-color: rgba(234, 212, 147, 0.2);
+color: rgb(38, 37, 35); /* // light black//*/
+border-radius: 2px;
+padding: 4px 8px;
+margin: 20px;
+}
+nav li a:hover{
+  background-color: rgb(237, 234, 230);
